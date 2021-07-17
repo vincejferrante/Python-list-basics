@@ -1,0 +1,32 @@
+#full tutoiral https://www.youtube.com/watch?v=2XNUbBu2TCc
+
+#creating a simple list
+farm_animals = ['cow', 'horse', 'dog', 'cat']
+
+#printing the list
+print(farm_animals)
+
+#printing dog from the list
+print(farm_animals[2])
+
+#showing the user what my fav animal! Dogs woof woof
+message = f"My favorite animal is a {farm_animals[-2].upper()}!"
+print(message)
+
+#using append to add goat to our list and printing the new list
+farm_animals.append('goat')
+print(farm_animals)
+
+#deleting the last placeholder in the list
+del farm_animals[-1]
+print(farm_animals)
+
+#Sorting the list in alphabetical order
+farm_animals.sort()
+print(farm_animals)
+
+#Reverse alphabetical order 
+farm_animals.sort(reverse=True)
+print(farm_animals)
+
+len(farm_animals)
